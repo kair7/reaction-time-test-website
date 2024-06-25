@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+#header {
+    text-align: center;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#stopwatch-image {
+    width: 20%;
+}
+
+#test-area {
+    text-align: center;
+    height: 67%;
+}
+
+#lights {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.light {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+#message {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
