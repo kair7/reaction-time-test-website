@@ -20,11 +20,16 @@ body {
 
 #stopwatch-image {
     width: 20%;
+    cursor: pointer;
 }
 
 #test-area {
     text-align: center;
     height: 67%;
+}
+
+#controls {
+    margin-bottom: 20px;
 }
 
 #lights {
@@ -50,4 +55,8 @@ button {
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
+}
+
+#next-button {
+    margin-top: 20px;
 }
